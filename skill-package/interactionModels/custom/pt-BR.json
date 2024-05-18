@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [],
+          "name": "GetFutureEventsIntent",
+          "samples": [
+            "quais são os próximos eventos",
+            "eventos futuros",
+            "o que está por vir"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetPastEventsIntent",
+          "samples": [
+            "quais foram os últimos eventos",
+            "eventos passados",
+            "o que já aconteceu"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ajuda",
+            "Como funciona",
+            "Como eu posso usar esta habilidade",
+            "o que posso dizer"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "pare"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "parar",
+            "sair"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "minha comunidade"
+    }
+  }
+}
